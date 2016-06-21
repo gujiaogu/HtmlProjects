@@ -7,21 +7,24 @@ ul {
 }
 
 li, .dropdow_btn {
-	display: inline;
+	display: inline-block;
 }
 
 li a, .test {
 	display: inline-block;
 	color: white;
-	text-decoration: none;
 	padding-left: 8px;
 	padding-right: 8px;
 	padding-top: 16px;
 	padding-bottom: 16px;
 }
 
-a:hover {
+a:hover, .dropdow_btn:hover .test {
 	background-color: #9575cd;
+}
+
+a {
+	text-decoration: none;
 }
 
 .dropdown_content {
@@ -34,7 +37,6 @@ a:hover {
 
 .dropdown_content a {
 	display: block;
-	text-decoration: none;
 	color: black;
 	padding-top: 16px;
 	padding-bottom: 16px;
