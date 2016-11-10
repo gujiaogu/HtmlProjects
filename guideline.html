@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Guide Line</title>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="my.css">
+	<script type="text/javascript" src="./js/my.js"></script>
 </head>
 <body>
 	<ul>
@@ -14,10 +15,12 @@
 			<div class="dropdown_content">
 				<a class="content" href="">Content1</a>
 				<a class="content" href="">Content2</a>
-				<a class="content" href="">Content3</a>
+			    <a class="content" href="" id="content3" onclick="alertDialog()">Content3</a>
 			</div>
 		</div>
 	</ul>
 	<p>This is a demo for DropdownList</p>
+    <button type="button" onclick="test()">JS测试代码</button>
+    <button type="button" onclick="swap()">交换数据</button>
 </body>
 </html>
